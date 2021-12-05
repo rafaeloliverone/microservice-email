@@ -18,6 +18,7 @@ import javax.validation.Valid;
 import java.util.Optional;
 import java.util.UUID;
 
+@CrossOrigin(origins="*")
 @RestController
 public class EmailController {
 
